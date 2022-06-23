@@ -100,6 +100,8 @@ class SSDLite(nn.Module):
             )
         return output
 
+# ssd类是一致的，区别在下面的构造函数上
+
 def add_extras(base, feature_layer, mbox, num_classes):
     extra_layers = []
     loc_layers = []
