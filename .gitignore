@@ -11,3 +11,4 @@ log*
 saved_model/
 
 vendor/
+.DS_Store
